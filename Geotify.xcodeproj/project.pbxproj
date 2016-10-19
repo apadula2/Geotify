@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D7A66FD91DB7EC1100A7C070 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A66FD81DB7EC1100A7C070 /* AppDelegate.swift */; };
+		D7A66FDB1DB7EC1100A7C070 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A66FDA1DB7EC1100A7C070 /* ViewController.swift */; };
+		D7A66FDE1DB7EC1100A7C070 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A66FDC1DB7EC1100A7C070 /* Main.storyboard */; };
+		D7A66FE01DB7EC1100A7C070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D7A66FDF1DB7EC1100A7C070 /* Assets.xcassets */; };
+		D7A66FE31DB7EC1100A7C070 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7A66FE11DB7EC1100A7C070 /* LaunchScreen.storyboard */; };
+		D7A66FEE1DB7EC1100A7C070 /* GeotifyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A66FED1DB7EC1100A7C070 /* GeotifyTests.swift */; };
+		D7A66FF91DB7EC1100A7C070 /* GeotifyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7A66FF81DB7EC1100A7C070 /* GeotifyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D7A66FEA1DB7EC1100A7C070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A66FCD1DB7EC1100A7C070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A66FD41DB7EC1100A7C070;
+			remoteInfo = Geotify;
+		};
+		D7A66FF51DB7EC1100A7C070 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D7A66FCD1DB7EC1100A7C070 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D7A66FD41DB7EC1100A7C070;
+			remoteInfo = Geotify;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D7A66FD51DB7EC1100A7C070 /* Geotify.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Geotify.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A66FD81DB7EC1100A7C070 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D7A66FDA1DB7EC1100A7C070 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D7A66FDD1DB7EC1100A7C070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D7A66FDF1DB7EC1100A7C070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D7A66FE21DB7EC1100A7C070 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7A66FE41DB7EC1100A7C070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A66FE91DB7EC1100A7C070 /* GeotifyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeotifyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A66FED1DB7EC1100A7C070 /* GeotifyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeotifyTests.swift; sourceTree = "<group>"; };
+		D7A66FEF1DB7EC1100A7C070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7A66FF41DB7EC1100A7C070 /* GeotifyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeotifyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7A66FF81DB7EC1100A7C070 /* GeotifyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeotifyUITests.swift; sourceTree = "<group>"; };
+		D7A66FFA1DB7EC1100A7C070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D7A66FD21DB7EC1100A7C070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A66FE61DB7EC1100A7C070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A66FF11DB7EC1100A7C070 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D7A66FCC1DB7EC1100A7C070 = {
+			isa = PBXGroup;
+			children = (
+				D7A66FD71DB7EC1100A7C070 /* Geotify */,
+				D7A66FEC1DB7EC1100A7C070 /* GeotifyTests */,
+				D7A66FF71DB7EC1100A7C070 /* GeotifyUITests */,
+				D7A66FD61DB7EC1100A7C070 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D7A66FD61DB7EC1100A7C070 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D7A66FD51DB7EC1100A7C070 /* Geotify.app */,
+				D7A66FE91DB7EC1100A7C070 /* GeotifyTests.xctest */,
+				D7A66FF41DB7EC1100A7C070 /* GeotifyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D7A66FD71DB7EC1100A7C070 /* Geotify */ = {
+			isa = PBXGroup;
+			children = (
+				D7A66FD81DB7EC1100A7C070 /* AppDelegate.swift */,
+				D7A66FDA1DB7EC1100A7C070 /* ViewController.swift */,
+				D7A66FDC1DB7EC1100A7C070 /* Main.storyboard */,
+				D7A66FDF1DB7EC1100A7C070 /* Assets.xcassets */,
+				D7A66FE11DB7EC1100A7C070 /* LaunchScreen.storyboard */,
+				D7A66FE41DB7EC1100A7C070 /* Info.plist */,
+			);
+			path = Geotify;
+			sourceTree = "<group>";
+		};
+		D7A66FEC1DB7EC1100A7C070 /* GeotifyTests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A66FED1DB7EC1100A7C070 /* GeotifyTests.swift */,
+				D7A66FEF1DB7EC1100A7C070 /* Info.plist */,
+			);
+			path = GeotifyTests;
+			sourceTree = "<group>";
+		};
+		D7A66FF71DB7EC1100A7C070 /* GeotifyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D7A66FF81DB7EC1100A7C070 /* GeotifyUITests.swift */,
+				D7A66FFA1DB7EC1100A7C070 /* Info.plist */,
+			);
+			path = GeotifyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D7A66FD41DB7EC1100A7C070 /* Geotify */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A66FFD1DB7EC1100A7C070 /* Build configuration list for PBXNativeTarget "Geotify" */;
+			buildPhases = (
+				D7A66FD11DB7EC1100A7C070 /* Sources */,
+				D7A66FD21DB7EC1100A7C070 /* Frameworks */,
+				D7A66FD31DB7EC1100A7C070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Geotify;
+			productName = Geotify;
+			productReference = D7A66FD51DB7EC1100A7C070 /* Geotify.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D7A66FE81DB7EC1100A7C070 /* GeotifyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A670001DB7EC1100A7C070 /* Build configuration list for PBXNativeTarget "GeotifyTests" */;
+			buildPhases = (
+				D7A66FE51DB7EC1100A7C070 /* Sources */,
+				D7A66FE61DB7EC1100A7C070 /* Frameworks */,
+				D7A66FE71DB7EC1100A7C070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A66FEB1DB7EC1100A7C070 /* PBXTargetDependency */,
+			);
+			name = GeotifyTests;
+			productName = GeotifyTests;
+			productReference = D7A66FE91DB7EC1100A7C070 /* GeotifyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D7A66FF31DB7EC1100A7C070 /* GeotifyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D7A670031DB7EC1100A7C070 /* Build configuration list for PBXNativeTarget "GeotifyUITests" */;
+			buildPhases = (
+				D7A66FF01DB7EC1100A7C070 /* Sources */,
+				D7A66FF11DB7EC1100A7C070 /* Frameworks */,
+				D7A66FF21DB7EC1100A7C070 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D7A66FF61DB7EC1100A7C070 /* PBXTargetDependency */,
+			);
+			name = GeotifyUITests;
+			productName = GeotifyUITests;
+			productReference = D7A66FF41DB7EC1100A7C070 /* GeotifyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7A66FCD1DB7EC1100A7C070 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "Alexis Padula";
+				TargetAttributes = {
+					D7A66FD41DB7EC1100A7C070 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					D7A66FE81DB7EC1100A7C070 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7A66FD41DB7EC1100A7C070;
+					};
+					D7A66FF31DB7EC1100A7C070 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = D7A66FD41DB7EC1100A7C070;
+					};
+				};
+			};
+			buildConfigurationList = D7A66FD01DB7EC1100A7C070 /* Build configuration list for PBXProject "Geotify" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D7A66FCC1DB7EC1100A7C070;
+			productRefGroup = D7A66FD61DB7EC1100A7C070 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D7A66FD41DB7EC1100A7C070 /* Geotify */,
+				D7A66FE81DB7EC1100A7C070 /* GeotifyTests */,
+				D7A66FF31DB7EC1100A7C070 /* GeotifyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D7A66FD31DB7EC1100A7C070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A66FE31DB7EC1100A7C070 /* LaunchScreen.storyboard in Resources */,
+				D7A66FE01DB7EC1100A7C070 /* Assets.xcassets in Resources */,
+				D7A66FDE1DB7EC1100A7C070 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A66FE71DB7EC1100A7C070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A66FF21DB7EC1100A7C070 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D7A66FD11DB7EC1100A7C070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A66FDB1DB7EC1100A7C070 /* ViewController.swift in Sources */,
+				D7A66FD91DB7EC1100A7C070 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A66FE51DB7EC1100A7C070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A66FEE1DB7EC1100A7C070 /* GeotifyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D7A66FF01DB7EC1100A7C070 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D7A66FF91DB7EC1100A7C070 /* GeotifyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D7A66FEB1DB7EC1100A7C070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A66FD41DB7EC1100A7C070 /* Geotify */;
+			targetProxy = D7A66FEA1DB7EC1100A7C070 /* PBXContainerItemProxy */;
+		};
+		D7A66FF61DB7EC1100A7C070 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D7A66FD41DB7EC1100A7C070 /* Geotify */;
+			targetProxy = D7A66FF51DB7EC1100A7C070 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D7A66FDC1DB7EC1100A7C070 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A66FDD1DB7EC1100A7C070 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D7A66FE11DB7EC1100A7C070 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7A66FE21DB7EC1100A7C070 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D7A66FFB1DB7EC1100A7C070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D7A66FFC1DB7EC1100A7C070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D7A66FFE1DB7EC1100A7C070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Geotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.apadula2.Geotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D7A66FFF1DB7EC1100A7C070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Geotify/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.apadula2.Geotify;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		D7A670011DB7EC1100A7C070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.apadula2.GeotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geotify.app/Geotify";
+			};
+			name = Debug;
+		};
+		D7A670021DB7EC1100A7C070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GeotifyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.apadula2.GeotifyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Geotify.app/Geotify";
+			};
+			name = Release;
+		};
+		D7A670041DB7EC1100A7C070 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GeotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.apadula2.GeotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Geotify;
+			};
+			name = Debug;
+		};
+		D7A670051DB7EC1100A7C070 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = GeotifyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.elon.apadula2.GeotifyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Geotify;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D7A66FD01DB7EC1100A7C070 /* Build configuration list for PBXProject "Geotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A66FFB1DB7EC1100A7C070 /* Debug */,
+				D7A66FFC1DB7EC1100A7C070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D7A66FFD1DB7EC1100A7C070 /* Build configuration list for PBXNativeTarget "Geotify" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A66FFE1DB7EC1100A7C070 /* Debug */,
+				D7A66FFF1DB7EC1100A7C070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7A670001DB7EC1100A7C070 /* Build configuration list for PBXNativeTarget "GeotifyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A670011DB7EC1100A7C070 /* Debug */,
+				D7A670021DB7EC1100A7C070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D7A670031DB7EC1100A7C070 /* Build configuration list for PBXNativeTarget "GeotifyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D7A670041DB7EC1100A7C070 /* Debug */,
+				D7A670051DB7EC1100A7C070 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7A66FCD1DB7EC1100A7C070 /* Project object */;
+}
